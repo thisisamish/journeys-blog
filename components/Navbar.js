@@ -10,7 +10,7 @@ function Navbar() {
       <ul>
         <li>
           <Link href="/">
-            <button className="btn-logo">FEED</button>
+            <button className="btn-logo">JOURNEYS</button>
           </Link>
         </li>
 
