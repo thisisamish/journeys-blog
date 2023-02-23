@@ -13,7 +13,7 @@ export default function PostContent({ post }) {
       <span className="text-sm">
         Written By{" "}
         <Link href={`/${post.username}`}>
-          <a className="text-info">@{post.username}</a>
+          <p className="text-info">@{post.username}</p>
         </Link>{" "}
         on {createdAt.toISOString()}
       </span>

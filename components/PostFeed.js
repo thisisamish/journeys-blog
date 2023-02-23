@@ -14,15 +14,11 @@ const PostItem = ({ post, admin = false }) => {
   return (
     <div className="card">
       <Link href={`/${post.username}`}>
-        <a>
-          <strong>By @{post.username}</strong>
-        </a>
+        <strong>By @{post.username}</strong>
       </Link>
 
       <Link href={`/${post.username}/${post.slug}`}>
-        <h2>
-          <a>{post.title}</a>
-        </h2>
+        <h2>{post.title}</h2>
       </Link>
 
       <footer>

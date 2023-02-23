@@ -1,6 +1,6 @@
 import Loader from "@/components/Loader";
 import PostFeed from "@/components/PostFeed";
-import { firestore, postToJSON } from "@/lib/firebase";
+import { firestore, postToJSON, fromMillis } from "@/lib/firebase";
 import { useState } from "react";
 
 const LIMIT = 1;
